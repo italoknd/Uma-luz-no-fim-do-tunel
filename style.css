@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #6D7275;
+}
+
+header{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+main > div{
+  text-align: center;
+  padding-top: 20px;
+}
+
+div > input{
+  padding:2px 30px;
+  margin-left: 5px;
+  background-color: rgb(51, 122, 255);
+  color: white;
+  border: none;
+}
