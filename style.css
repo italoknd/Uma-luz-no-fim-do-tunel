@@ -2,9 +2,17 @@
   padding: 0;
   margin: 0;
 }
+
+:root{
+  --noite: #0D1B2A;
+  --dia: #F3B700;
+  --escuro: #071013;
+  --padrao: #546A7B;
+}
+
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #6D7275;
+  background-color: var(--padrao);
 }
 
 header{
@@ -21,7 +29,16 @@ main > div{
 }
 
 div > input{
-  padding:2px 30px;
+  padding: 4px 40px;
   margin-left: 5px;
   border: none;
+  background-color: #72727E;
+  color: white;
+  font-weight: 600;
+  border-radius: 2px;
+  transition-duration: 0.3s;
+}
+
+div > input:hover{
+  background-color: #625F63;
 }
