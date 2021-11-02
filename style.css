@@ -11,7 +11,7 @@ header{
   text-align: center;
   padding-top: 20px;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -23,7 +23,5 @@ main > div{
 div > input{
   padding:2px 30px;
   margin-left: 5px;
-  background-color: rgb(51, 122, 255);
-  color: white;
   border: none;
 }
