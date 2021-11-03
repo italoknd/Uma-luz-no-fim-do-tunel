@@ -5,7 +5,9 @@ let value = 0
 
 turnOn.addEventListener('click', ligar)
 turnOff.addEventListener("click", desligar)
-broke.addEventListener("click", quebrar)
+broke.addEventListener("dblclick", quebrar)
+lamp.addEventListener("mouseover", ligar)
+lamp.addEventListener("mouseout", desligar)
 
 function ligar(){
   
